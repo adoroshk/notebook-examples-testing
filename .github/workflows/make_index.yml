@@ -7,12 +7,12 @@ on:
     branches: [ "main" ]
 
 jobs:
-  get-num-square:
+  run-python-action:
     runs-on: ubuntu-latest
-    name: Returns the number square
+    name: run puthon action
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Fetch num squared
+      - name: Run custom python action 
         id: run_python_file
         uses: ./
