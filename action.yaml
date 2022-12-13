@@ -1,18 +1,16 @@
-name: 'Custom GitHub Action'
-description: 'A test GitHub Action'
+name: "Custom GitHub Action"
+description: "A test GitHub Action"
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - name: Install Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.8'
+        python-version: "3.8"
     - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ];
-          then pip install -r requirements.txt;
-          fi
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
     - name: Run Python Script
       id: run_python_file
       run: python src/update_index_json.py
