@@ -118,11 +118,14 @@ def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:b
     while i < execute_times:
         i+= 1
         auth = auth or {}
+        print("uri", uri)
         scheme = urlparse(uri).scheme or "file"
+        print("scheme", scheme)
+        dir_content = file_system.ls(uri)
         
         file_system = fsspec.filesystem(scheme, **auth)
         files = [
-            file for file in file_system.ls(uri) #if file.endswith(".ipynb")
+            file for file in dir_content #if file.endswith(".ipynb")
         ]
         print("files", files)
         method = parse_file if parse_by_line else parse_nb
