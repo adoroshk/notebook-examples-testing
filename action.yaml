@@ -7,9 +7,6 @@ runs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.8'
-    - name: Install fsspec
-      run: pip install fsspec
-      shell: bash
     - name: Run Python Script
       id: run_python_file
       run: python src/update_index_json.py
