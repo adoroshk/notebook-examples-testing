@@ -9,7 +9,7 @@ on:
 jobs:
   run-python-action:
     runs-on: ubuntu-latest
-    name: run puthon action
+    name: run python action
     steps:
       - name: Checkout
         uses: actions/checkout@v2
