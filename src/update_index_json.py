@@ -140,7 +140,7 @@ def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:b
     print("max_workers:", max_workers, " ", "block_size:", block_size, " " "duration:", duration, "sec")
     return result
 
-json_content = parse_notebooks("../notebooks", block_size=1000, parse_by_line = True, max_workers=10)
+json_content = parse_notebooks("/home/notebooks", block_size=1000, parse_by_line = True, max_workers=10)
 print(json_content)
 
 with open("index.json", "w") as index_file:
