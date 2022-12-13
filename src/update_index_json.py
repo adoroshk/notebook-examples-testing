@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from time import time
 import timeit
 import nbformat
-
+import os
 MAX_WORKERS = 10
 
 new_json = {'time': time()}
@@ -121,9 +121,11 @@ def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:b
         print("uri", uri)
         scheme = urlparse(uri).scheme or "file"
         print("scheme", scheme)
-        dir_content = file_system.ls(uri)
+        
         
         file_system = fsspec.filesystem(scheme, **auth)
+        dir_content = file_system.ls(uri)
+        print("dir_content", dir_content)
         files = [
             file for file in dir_content #if file.endswith(".ipynb")
         ]
@@ -143,7 +145,8 @@ def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:b
     print("max_workers:", max_workers, " ", "block_size:", block_size, " " "duration:", duration, "sec")
     return result
 
-json_content = parse_notebooks("/home/notebooks", block_size=1000, parse_by_line = True, max_workers=10)
+current_folder = os.path.dirname(os.getcwd())
+json_content = parse_notebooks(f"{current_folder}/notebooks", block_size=1000, parse_by_line = True, max_workers=10)
 print(json_content)
 
 with open("index.json", "w") as index_file:
