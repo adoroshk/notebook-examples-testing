@@ -1,5 +1,6 @@
 import nbformat as nbf
-import glob, os
+import glob
+import os
 from tqdm import tqdm
 from collections import Counter
 import json
@@ -15,8 +16,9 @@ def parse_adsbib_format(input: str) -> dict:
         return {}
 
     # Strip out the field/value strings
-    input = input[len(prefix) :].strip("{}")
-    field_value_list = [l.strip(",\t") for l in input.split("\n") if len(l) > 0]
+    input = input[len(prefix):].strip("{}")
+    field_value_list = [l.strip(",\t")
+                        for l in input.split("\n") if len(l) > 0]
     if len(field_value_list) == 0:
         return {}
 
@@ -35,7 +37,8 @@ def parse_adsbib_format(input: str) -> dict:
             k.strip() for k in results["keywords"].split(",") if len(k.strip()) > 0
         ]
 
-    must_have = ["filename", "title", "summary", "developed on", "keywords", "license"]
+    must_have = ["filename", "title", "summary",
+                 "developed on", "keywords", "license"]
 
     # assert all the must_have fields are present in the results dictionary
     assert all(
@@ -113,7 +116,8 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
         ):
 
             print(f"### - {notebook_metadata['title']}", file=f)
-            print(f"#### [`{notebook_metadata['filename']}`]({notebook_metadata['filename']})", file=f)
+            print(
+                f"#### [`{notebook_metadata['filename']}`]({notebook_metadata['filename']})", file=f)
             print("\n ", file=f)
             print(f"{notebook_metadata['summary']}", file=f)
             print(
@@ -122,7 +126,8 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
             )
             print("\n ", file=f)
 
-            tags = "  ".join([f"`{kw}`" for kw in notebook_metadata["keywords"]])
+            tags = "  ".join(
+                [f"`{kw}`" for kw in notebook_metadata["keywords"]])
             print(f"{tags}", file=f)
 
             print(f"\n<sub>{notebook_metadata['license']}</sup>", file=f)
@@ -132,6 +137,7 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
 
     with open(INDEX_FILE, "w") as index_file:
         json.dump(index_json_content, index_file)
+
 
 if __name__ == "__main__":
     make_readme()

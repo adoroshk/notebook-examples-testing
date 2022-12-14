@@ -1,23 +1,23 @@
-name: Make README.md and index.json
+name: Make README and INDEX
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
-      - '**.ipynb'
+      - "**.ipynb"
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
-      - '**.ipynb'
+      - "**.ipynb"
   # Allows mannual triggering
   workflow_dispatch:
 jobs:
-  run-python-action:
+  make-readme-and-index:
     runs-on: ubuntu-latest
-    name: run python action
+    name: make readme and index
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Run custom python action 
-        id: run_python_file
+      - name: Run python script
+        id: make_readme_and_index
         uses: ./

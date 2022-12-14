@@ -1,5 +1,5 @@
-name: "Make README.md and index.json"
-description: "Makes README.md and index.json on push or pull request events for the "main" branch or when manually triggered"
+name: "Make README and INDEX"
+description: 'Makes README.md and index.json on push or pull request events for the "main" branch or when manually triggered'
 runs:
   using: "composite"
   steps:
@@ -16,13 +16,13 @@ runs:
       shell: bash
     - name: Make README.md and index.json files
       working-directory: ./notebooks
-      id: make_readme_and_index_files
+      id: make_readme_and_index
       run: python make_readme.py
       shell: bash
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        message: Commit README.md
+        message: Commit README and INDEX
         committer_name: GitHub Actions
         committer_email: actions@github.com
         file_pattern: README.md index.json
