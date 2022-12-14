@@ -1,1 +1,95 @@
-{"natural_language_processing.ipynb": {"filename": "natural_language_processing.ipynb", "title": "Natural Language Processing", "summary": "Use the ADS SDK to process and manipulate strings. This notebook includes regular expression matching and natural language (NLP) parsing, including part-of-speech tagging, named entity recognition, and sentiment analysis. It also shows how to create and use custom plugins specific to your specific needs.", "developed on": "nlp_p37_cpu_v2", "keywords": ["language services", "string manipulation", "regex", "regular expression", "natural language processing", "NLP", "part-of-speech tagging", "named entity recognition", "sentiment analysis", "custom plugins"], "license": "Universal Permissive License v 1.0"}, "streaming-service-introduction.ipynb": {"filename": "streaming-service-introduction.ipynb", "title": "Introduction to Streaming", "summary": "Connect to Oracle Cloud Insfrastructure (OCI) Streaming service with kafka.", "developed on": "dataexpl_p37_cpu_v3", "keywords": ["streaming", "kafka"], "license": "Universal Permissive License v 1.0"}, "model_evaluation-with-ADSEvaluator.ipynb": {"filename": "model_evaluation-with-ADSEvaluator.ipynb", "title": "Model Evaluation with ADSEvaluator", "summary": "Train and evaluate different types of models: binary classification using an imbalanced dataset, multi-class classification using a synthetically generated dataset consisting of three equally distributed classes, and a regression using a synthetically generated dataset with positive targets.", "developed on": "generalml_p37_cpu_v1", "keywords": ["model evaluation", "binary classification", "regression", "multi-class classification", "imbalanced dataset", "synthetic dataset"], "license": "Universal Permissive License v 1.0"}, "caltech-pedestrian_detection-oracle_open_data.ipynb": {"filename": "caltech-pedestrian_detection-oracle_open_data.ipynb", "title": "Caltech Pedestrian Detection Benchmark Repository", "summary": "Download and process annotated video data of vehicles and pedestrians.", "developed on": "generalml_p37_cpu_v1", "keywords": ["caltech", "pedestrian detection", "oracle open data"], "license": "Universal Permissive License v 1.0"}, "accelerate-scikit_learn-with-intel_extension.ipynb": {"filename": "accelerate-scikit_learn-with-intel_extension.ipynb", "title": "Intel Extension for Scikit-Learn", "summary": "Enhance performance of scikit-learn models using the Intel(R) oneAPI Data Analytics Library. Train a k-means model using both sklearn and the accelerated Intel library and compare performance.", "developed on": "sklearnex202130_p37_cpu_v1", "keywords": ["intel", "intel extension", "scikit-learn", "scikit learn"], "license": "Universal Permissive License v 1.0"}, "pipelines-ml_lifecycle.ipynb": {"filename": "pipelines-ml_lifecycle.ipynb", "title": "Working with Pipelines [Limited Availability]", "summary": "Create and use ML pipelines through the entire machine learning lifecycle", "developed on": "generalml_p37_cpu_v1", "keywords": ["pipelines", "pipeline step", "jobs pipeline"], "license": "Universal Permissive License v 1.0"}}
+{
+    "accelerate-scikit_learn-with-intel_extension.ipynb": {
+        "developed on": "sklearnex202130_p37_cpu_v1",
+        "filename": "accelerate-scikit_learn-with-intel_extension.ipynb",
+        "keywords": [
+            "intel",
+            "intel extension",
+            "scikit-learn",
+            "scikit learn"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Enhance performance of scikit-learn models using the Intel(R) oneAPI Data Analytics Library. Train a k-means model using both sklearn and the accelerated Intel library and compare performance.",
+        "title": "Intel Extension for Scikit-Learn"
+    },
+    "caltech-pedestrian_detection-oracle_open_data.ipynb": {
+        "developed on": "generalml_p37_cpu_v1",
+        "filename": "caltech-pedestrian_detection-oracle_open_data.ipynb",
+        "keywords": [
+            "caltech",
+            "pedestrian detection",
+            "oracle open data"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Download and process annotated video data of vehicles and pedestrians.",
+        "title": "Caltech Pedestrian Detection Benchmark Repository"
+    },
+    "model_evaluation-with-ADSEvaluator.ipynb": {
+        "developed on": "generalml_p37_cpu_v1",
+        "filename": "model_evaluation-with-ADSEvaluator.ipynb",
+        "keywords": [
+            "model evaluation",
+            "binary classification",
+            "regression",
+            "multi-class classification",
+            "imbalanced dataset",
+            "synthetic dataset"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Train and evaluate different types of models: binary classification using an imbalanced dataset, multi-class classification using a synthetically generated dataset consisting of three equally distributed classes, and a regression using a synthetically generated dataset with positive targets.",
+        "title": "Model Evaluation with ADSEvaluator"
+    },
+    "natural_language_processing.ipynb": {
+        "developed on": "nlp_p37_cpu_v2",
+        "filename": "natural_language_processing.ipynb",
+        "keywords": [
+            "language services",
+            "string manipulation",
+            "regex",
+            "regular expression",
+            "natural language processing",
+            "NLP",
+            "part-of-speech tagging",
+            "named entity recognition",
+            "sentiment analysis",
+            "custom plugins"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Use the ADS SDK to process and manipulate strings. This notebook includes regular expression matching and natural language (NLP) parsing, including part-of-speech tagging, named entity recognition, and sentiment analysis. It also shows how to create and use custom plugins specific to your specific needs.",
+        "title": "Natural Language Processing"
+    },
+    "pipelines-ml_lifecycle.ipynb": {
+        "developed on": "generalml_p37_cpu_v1",
+        "filename": "pipelines-ml_lifecycle.ipynb",
+        "keywords": [
+            "pipelines",
+            "pipeline step",
+            "jobs pipeline"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Create and use ML pipelines through the entire machine learning lifecycle",
+        "title": "Working with Pipelines [Limited Availability]"
+    },
+    "read-write-big_data_service-(BDS).ipynb": {
+        "developed on": "pyspark30_p37_cpu_v5",
+        "filename": "read-write-big_data_service-(BDS).ipynb",
+        "keywords": [
+            "bds",
+            "fsspec"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Manage data using fsspec file system. Read and save data using pandas and pyarrow through fsspec file system.",
+        "title": "How to Read Data with fsspec from Oracle Big Data Service (BDS)"
+    },
+    "streaming-service-introduction.ipynb": {
+        "developed on": "dataexpl_p37_cpu_v3",
+        "filename": "streaming-service-introduction.ipynb",
+        "keywords": [
+            "streaming",
+            "kafka"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Connect to Oracle Cloud Insfrastructure (OCI) Streaming service with kafka.",
+        "title": "Introduction to Streaming"
+    }
+}

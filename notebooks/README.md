@@ -10,9 +10,23 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
 
 
 ## Topics
-<img src="https://img.shields.io/badge/language services-1-brightgreen"> <img src="https://img.shields.io/badge/string manipulation-1-brightgreen"> <img src="https://img.shields.io/badge/regex-1-brightgreen"> <img src="https://img.shields.io/badge/regular expression-1-brightgreen"> <img src="https://img.shields.io/badge/natural language processing-1-brightgreen"> <img src="https://img.shields.io/badge/NLP-1-brightgreen"> <img src="https://img.shields.io/badge/part of speech tagging-1-brightgreen"> <img src="https://img.shields.io/badge/named entity recognition-1-brightgreen"> <img src="https://img.shields.io/badge/sentiment analysis-1-brightgreen"> <img src="https://img.shields.io/badge/custom plugins-1-brightgreen"> <img src="https://img.shields.io/badge/streaming-1-brightgreen"> <img src="https://img.shields.io/badge/kafka-1-brightgreen"> <img src="https://img.shields.io/badge/model evaluation-1-brightgreen"> <img src="https://img.shields.io/badge/binary classification-1-brightgreen"> <img src="https://img.shields.io/badge/regression-1-brightgreen"> <img src="https://img.shields.io/badge/multi class classification-1-brightgreen"> <img src="https://img.shields.io/badge/imbalanced dataset-1-brightgreen"> <img src="https://img.shields.io/badge/synthetic dataset-1-brightgreen"> <img src="https://img.shields.io/badge/caltech-1-brightgreen"> <img src="https://img.shields.io/badge/pedestrian detection-1-brightgreen"> <img src="https://img.shields.io/badge/oracle open data-1-brightgreen"> <img src="https://img.shields.io/badge/intel-1-brightgreen"> <img src="https://img.shields.io/badge/intel extension-1-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-1-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-1-brightgreen"> 
+<img src="https://img.shields.io/badge/model evaluation-1-brightgreen"> <img src="https://img.shields.io/badge/binary classification-1-brightgreen"> <img src="https://img.shields.io/badge/regression-1-brightgreen"> <img src="https://img.shields.io/badge/multi class classification-1-brightgreen"> <img src="https://img.shields.io/badge/imbalanced dataset-1-brightgreen"> <img src="https://img.shields.io/badge/synthetic dataset-1-brightgreen"> <img src="https://img.shields.io/badge/caltech-1-brightgreen"> <img src="https://img.shields.io/badge/pedestrian detection-1-brightgreen"> <img src="https://img.shields.io/badge/oracle open data-1-brightgreen"> <img src="https://img.shields.io/badge/intel-1-brightgreen"> <img src="https://img.shields.io/badge/intel extension-1-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-1-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-1-brightgreen"> <img src="https://img.shields.io/badge/pipelines-1-brightgreen"> <img src="https://img.shields.io/badge/pipeline step-1-brightgreen"> <img src="https://img.shields.io/badge/jobs pipeline-1-brightgreen"> <img src="https://img.shields.io/badge/bds-1-brightgreen"> <img src="https://img.shields.io/badge/fsspec-1-brightgreen"> <img src="https://img.shields.io/badge/streaming-1-brightgreen"> <img src="https://img.shields.io/badge/kafka-1-brightgreen"> <img src="https://img.shields.io/badge/language services-1-brightgreen"> <img src="https://img.shields.io/badge/string manipulation-1-brightgreen"> <img src="https://img.shields.io/badge/regex-1-brightgreen"> <img src="https://img.shields.io/badge/regular expression-1-brightgreen"> <img src="https://img.shields.io/badge/natural language processing-1-brightgreen"> 
 
 ## Notebooks
+### - How to Read Data with fsspec from Oracle Big Data Service (BDS)
+#### [`read-write-big_data_service-(BDS).ipynb`](read-write-big_data_service-(BDS).ipynb)
+
+ 
+Manage data using fsspec file system. Read and save data using pandas and pyarrow through fsspec file system.
+
+This notebook was developed on the conda pack with slug: *pyspark30\_p37\_cpu\_v5*
+
+ 
+`bds`  `fsspec`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
 ### - Caltech Pedestrian Detection Benchmark Repository
 #### [`caltech-pedestrian_detection-oracle_open_data.ipynb`](caltech-pedestrian_detection-oracle_open_data.ipynb)
 
