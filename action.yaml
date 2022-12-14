@@ -28,9 +28,7 @@ runs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        message: Commit README.md and index.json
+        message: Commit README.md
         committer_name: GitHub Actions
         committer_email: actions@github.com
-        add: |
-          '*.md --force'
-          'index.json'
+        add: '*.md'
