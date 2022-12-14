@@ -146,7 +146,7 @@ def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:b
     return result
 
 current_folder = os.path.dirname(os.getcwd())
-json_content = parse_notebooks(f"{current_folder}/notebooks", block_size=1000, parse_by_line = True, max_workers=10)
+json_content = parse_notebooks(f"{current_folder}", block_size=1000, parse_by_line = True, max_workers=10)
 print(json_content)
 
 with open("index.json", "w") as index_file:

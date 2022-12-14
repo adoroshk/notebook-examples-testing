@@ -15,7 +15,11 @@ runs:
         pip install tqdm
         pip install nbformat
       shell: bash
-    - name: Run Python Script
-      id: run_python_file
+    - name: Make readme
+      id: make_readme
       run: python notebooks/make_readme.py
+      shell: bash
+    - name: Update Index Json
+      id: run_python_file
+      run: python notebooks/update_index_json.py
       shell: bash
