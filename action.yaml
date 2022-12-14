@@ -1,10 +1,5 @@
-name: "Custom GitHub Action"
-description: "A test GitHub Action"
-#inputs:
-#  dir_content:  # id of input
-#    description: 'The content of the folder'
-#    required: true
-#    default: 'World'
+name: "Make README.md and index.json"
+description: "Makes README.md and index.json on push or pull request events for the "main" branch or when manually triggered"
 runs:
   using: "composite"
   steps:
@@ -15,14 +10,13 @@ runs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install fsspec
         pip install glob2
         pip install tqdm
         pip install nbformat
       shell: bash
-    - name: Make README.md and index.json
+    - name: Make README.md and index.json files
       working-directory: ./notebooks
-      id: make_readme_and_index
+      id: make_readme_and_index_files
       run: python make_readme.py
       shell: bash
     - name: Commit changes

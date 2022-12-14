@@ -9,6 +9,7 @@ on:
     branches: [ "main" ]
     paths:
       - '**.ipynb'
+  # Allows mannual triggering
   workflow_dispatch:
 jobs:
   run-python-action:
