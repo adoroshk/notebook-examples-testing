@@ -1,5 +1,10 @@
 name: "Custom GitHub Action"
 description: "A test GitHub Action"
+#inputs:
+#  dir_content:  # id of input
+#    description: 'The content of the folder'
+#    required: true
+#    default: 'World'
 runs:
   using: "composite"
   steps:
@@ -16,10 +21,12 @@ runs:
         pip install nbformat
       shell: bash
     - name: Make readme
+      working-directory: ./notebooks
       id: make_readme
       run: python notebooks/make_readme.py
       shell: bash
     - name: Update Index Json
+      working-directory: ./notebooks
       id: run_python_file
       run: python notebooks/update_index_json.py
       shell: bash
