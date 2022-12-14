@@ -136,7 +136,7 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
         print(f"{len(all_notebooks)} notebooks proceesed into {README_FILE}")
 
     with open(INDEX_FILE, "w") as index_file:
-        json.dump(index_json_content, index_file)
+        json.dump(index_json_content, index_file, sort_keys=True, indent=4)
 
 
 if __name__ == "__main__":
