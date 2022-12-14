@@ -20,20 +20,15 @@ runs:
         pip install tqdm
         pip install nbformat
       shell: bash
-    - name: Make readme
+    - name: Make README.md and index.json
       working-directory: ./notebooks
-      id: make_readme
+      id: make_readme_and_index
       run: python make_readme.py
-      shell: bash
-    - name: Update Index Json
-      working-directory: ./notebooks
-      id: run_python_file
-      run: python update_index_json.py
       shell: bash
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        message: Commit README.md
+        message: Commit README.md and index.json
         committer_name: GitHub Actions
         committer_email: actions@github.com
-        add: "*.md"
+        add: "*.md, index.json"
