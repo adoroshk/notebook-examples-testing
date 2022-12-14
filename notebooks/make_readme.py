@@ -125,6 +125,6 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
 
         print(f"{len(all_notebooks)} notebooks proceesed into {README_FILE}")
 
-
+print("__name__: ", __name__)
 if __name__ == "__main__":
     make_readme()

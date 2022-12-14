@@ -30,3 +30,9 @@ runs:
       id: run_python_file
       run: python update_index_json.py
       shell: bash
+    - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github_actions
+          message: 'Commit README.md'
+          add: 'README.md'
