@@ -31,4 +31,4 @@ runs:
         message: Commit README.md
         committer_name: GitHub Actions
         committer_email: actions@github.com
-        add: '*.md'
+        file_pattern: README.md index.json
