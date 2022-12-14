@@ -5,10 +5,12 @@ on:
     branches: ["main"]
     paths:
       - "**.ipynb"
+      - "make_readme.py"
   pull_request:
     branches: ["main"]
     paths:
       - "**.ipynb"
+      - "make_readme.py"
   # Allows mannual triggering
   workflow_dispatch:
 jobs:
