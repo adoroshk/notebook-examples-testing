@@ -31,4 +31,6 @@ runs:
         message: Commit README.md and index.json
         committer_name: GitHub Actions
         committer_email: actions@github.com
-        add: "*.md, index.json"
+        add: |
+          '*.md --force'
+          'index.json'
