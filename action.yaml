@@ -33,6 +33,8 @@ runs:
     - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: github_actions
-          message: 'Commit README.md'
-          add: 'README.md'
+          message: Commit README.md
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          add: '*.md'
+

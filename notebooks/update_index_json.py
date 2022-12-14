@@ -10,6 +10,9 @@ from time import time
 import timeit
 import nbformat
 import os
+import glob, os
+from tqdm import tqdm
+
 MAX_WORKERS = 10
 
 new_json = {'time': time()}
@@ -112,20 +115,21 @@ def parse_nb(
 
     return parse_adsbib_format(bib)
 
-def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:bool = True,  max_workers:int = MAX_WORKERS, execute_times:int = 1 ):
+def parse_notebooks(block_size:int, auth: dict = None, parse_by_line:bool = True,  max_workers:int = MAX_WORKERS, execute_times:int = 1 ):
     start_time = time()
     i=0
     while i < execute_times:
         i+= 1
         auth = auth or {}
-        print("uri", uri)
-        scheme = urlparse(uri).scheme or "file"
-        print("scheme", scheme)
+        #print("uri", uri)
+        #scheme = urlparse(uri).scheme or "file"
+        #print("scheme", scheme)
         
         
-        file_system = fsspec.filesystem(scheme, **auth)
-        dir_content = file_system.ls(uri)
+        #file_system = fsspec.filesystem(scheme, **auth)
+        dir_content = tqdm(glob.glob("[!_]*.ipynb"), leave=True)
         print("dir_content", dir_content)
+
         files = [
             file for file in dir_content #if file.endswith(".ipynb")
         ]
@@ -146,7 +150,7 @@ def parse_notebooks(uri: str, block_size:int, auth: dict = None, parse_by_line:b
     return result
 
 current_folder = os.path.dirname(os.getcwd())
-json_content = parse_notebooks(f"{current_folder}", block_size=1000, parse_by_line = True, max_workers=10)
+json_content = parse_notebooks(block_size=1000, parse_by_line = True, max_workers=10)
 print(json_content)
 
 with open("index.json", "w") as index_file:
