@@ -11,9 +11,11 @@ runs:
       run: |
         python -m pip install --upgrade pip
         pip install fsspec
+        pip install glob2
+        pip install tqdm
         pip install nbformat
       shell: bash
     - name: Run Python Script
       id: run_python_file
-      run: python src/update_index_json.py
+      run: python notebooks/make_readme.py
       shell: bash
