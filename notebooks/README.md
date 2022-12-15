@@ -10,9 +10,37 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
 
 
 ## Topics
-<img src="https://img.shields.io/badge/model evaluation-1-brightgreen"> <img src="https://img.shields.io/badge/binary classification-1-brightgreen"> <img src="https://img.shields.io/badge/regression-1-brightgreen"> <img src="https://img.shields.io/badge/multi class classification-1-brightgreen"> <img src="https://img.shields.io/badge/imbalanced dataset-1-brightgreen"> <img src="https://img.shields.io/badge/synthetic dataset-1-brightgreen"> <img src="https://img.shields.io/badge/caltech-1-brightgreen"> <img src="https://img.shields.io/badge/pedestrian detection-1-brightgreen"> <img src="https://img.shields.io/badge/oracle open data-1-brightgreen"> <img src="https://img.shields.io/badge/intel-1-brightgreen"> <img src="https://img.shields.io/badge/intel extension-1-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-1-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-1-brightgreen"> <img src="https://img.shields.io/badge/pipelines-1-brightgreen"> <img src="https://img.shields.io/badge/pipeline step-1-brightgreen"> <img src="https://img.shields.io/badge/jobs pipeline-1-brightgreen"> <img src="https://img.shields.io/badge/bds-1-brightgreen"> <img src="https://img.shields.io/badge/fsspec-1-brightgreen"> <img src="https://img.shields.io/badge/streaming-1-brightgreen"> <img src="https://img.shields.io/badge/kafka-1-brightgreen"> <img src="https://img.shields.io/badge/language services-1-brightgreen"> <img src="https://img.shields.io/badge/string manipulation-1-brightgreen"> <img src="https://img.shields.io/badge/regex-1-brightgreen"> <img src="https://img.shields.io/badge/regular expression-1-brightgreen"> <img src="https://img.shields.io/badge/natural language processing-1-brightgreen"> 
+<img src="https://img.shields.io/badge/deploy model-6-brightgreen"> <img src="https://img.shields.io/badge/register model-6-brightgreen"> <img src="https://img.shields.io/badge/train model-6-brightgreen"> <img src="https://img.shields.io/badge/pyspark-4-brightgreen"> <img src="https://img.shields.io/badge/data flow-4-brightgreen"> <img src="https://img.shields.io/badge/oracle open data-3-brightgreen"> <img src="https://img.shields.io/badge/bds-3-brightgreen"> <img src="https://img.shields.io/badge/xgboost-2-brightgreen"> <img src="https://img.shields.io/badge/scikit learn-2-brightgreen"> <img src="https://img.shields.io/badge/data catalog metastore-2-brightgreen"> <img src="https://img.shields.io/badge/big data service-2-brightgreen"> <img src="https://img.shields.io/badge/nlp-2-brightgreen"> <img src="https://img.shields.io/badge/object annotation-1-brightgreen"> <img src="https://img.shields.io/badge/genome visualization-1-brightgreen"> <img src="https://img.shields.io/badge/language services-1-brightgreen"> <img src="https://img.shields.io/badge/string manipulation-1-brightgreen"> <img src="https://img.shields.io/badge/regex-1-brightgreen"> <img src="https://img.shields.io/badge/regular expression-1-brightgreen"> <img src="https://img.shields.io/badge/natural language processing-1-brightgreen"> <img src="https://img.shields.io/badge/NLP-1-brightgreen"> <img src="https://img.shields.io/badge/part of speech tagging-1-brightgreen"> <img src="https://img.shields.io/badge/named entity recognition-1-brightgreen"> <img src="https://img.shields.io/badge/sentiment analysis-1-brightgreen"> <img src="https://img.shields.io/badge/custom plugins-1-brightgreen"> <img src="https://img.shields.io/badge/rapids-1-brightgreen"> 
 
 ## Notebooks
+### - API Keys
+#### [`api_keys-authentication.ipynb`](api_keys-authentication.ipynb)
+
+ 
+Configure and test API key authentication, attach keys to user account through Oracle's identity service, and test access to the API.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`authentication`  `api keys`  `iam`  `access management`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Audi Autonomous Driving Dataset Repository
+#### [`audi-autonomous_driving-oracle_open_data.ipynb`](audi-autonomous_driving-oracle_open_data.ipynb)
+
+ 
+Download, process and display autonomous driving data, and map LiDAR data onto images.
+
+This notebook was developed on the conda pack with slug: *computervision\_p37\_cpu\_v1*
+
+ 
+`autonomous driving`  `oracle open data`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
 ### - How to Read Data with fsspec from Oracle Big Data Service (BDS)
 #### [`read-write-big_data_service-(BDS).ipynb`](read-write-big_data_service-(BDS).ipynb)
 
@@ -23,6 +51,20 @@ This notebook was developed on the conda pack with slug: *pyspark30\_p37\_cpu\_v
 
  
 `bds`  `fsspec`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Using Livy on the Big Data Service
+#### [`big_data_service-(BDS)-livy.ipynb`](big_data_service-(BDS)-livy.ipynb)
+
+ 
+Work interactively with a BDS cluster using Livy and two different connection techniques, SparkMagic (for a notebook environment) and with REST.
+
+This notebook was developed on the conda pack with slug: *pyspark30\_p37\_cpu\_v5*
+
+ 
+`bds`  `big data service`  `livy`
 
 <sub>Universal Permissive License v 1.0</sup>
 
@@ -41,6 +83,90 @@ This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v
 <sub>Universal Permissive License v 1.0</sup>
 
 ---
+### - Using Data Catalog Metastore with DataFlow
+#### [`pyspark-data_catalog-hive_metastore-data_flow.ipynb`](pyspark-data_catalog-hive_metastore-data_flow.ipynb)
+
+ 
+Write and test a Data Flow batch application using the Oracle Cloud Infrastructure (OCI) Data Catalog Metastore. Configure the job, run the application and clean up resources.
+
+This notebook was developed on the conda pack with slug: *pyspark30\_p37\_cpu\_v5*
+
+ 
+`data catalog metastore`  `data flow`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Text Classification with Data Labeling Service Integration
+#### [`data_labeling-text_classification.ipynb`](data_labeling-text_classification.ipynb)
+
+ 
+Use the Oracle Cloud Infrastructure (OCI) Data Labeling service to efficiently build enriched, labeled datasets for the purpose of accurately training AI/ML models. This notebook demonstrates operations that can be performed using the Advanced Data Science (ADS) Data Labeling module.
+
+This notebook was developed on the conda pack with slug: *nlp\_p37\_cpu\_v2*
+
+ 
+`data labeling`  `text classification`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Visualizing Data
+#### [`visualizing_data-exploring_data.ipynb`](visualizing_data-exploring_data.ipynb)
+
+ 
+Perform common data visualization tasks and explore data with the ADS SDK. Plotting approaches include 3D plots, pie chart, GIS plots, and Seaborn pairplot graphs.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`data visualization`  `seaborn plot`  `charts`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Using Data Catalog Metastore with PySpark
+#### [`pyspark-data_catalog-hive_metastore.ipynb`](pyspark-data_catalog-hive_metastore.ipynb)
+
+ 
+Configure and use PySpark to process data in the Oracle Cloud Infrastructure (OCI) Data Catalog metastore, including common operations like creating and loading data from the metastore.
+
+This notebook was developed on the conda pack with slug: *pyspark30\_p37\_cpu\_v5*
+
+ 
+`dcat`  `data catalog metastore`  `pyspark`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Train, Register, and Deploy a Generic Model
+#### [`train-register-deploy-other-frameworks.ipynb`](train-register-deploy-other-frameworks.ipynb)
+
+ 
+Train, register, and deploy a generic model
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`generic model`  `deploy model`  `register model`  `train model`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Introduction to ADSTuner
+#### [`hyperparameter_tuning.ipynb`](hyperparameter_tuning.ipynb)
+
+ 
+Use ADSTuner to optimize an estimator using the scikit-learn API
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`hyperparameter tuning`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
 ### - Intel Extension for Scikit-Learn
 #### [`accelerate-scikit_learn-with-intel_extension.ipynb`](accelerate-scikit_learn-with-intel_extension.ipynb)
 
@@ -51,6 +177,20 @@ This notebook was developed on the conda pack with slug: *sklearnex202130\_p37\_
 
  
 `intel`  `intel extension`  `scikit-learn`  `scikit learn`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Connect to Oracle Big Data Service
+#### [`big_data_service-(BDS)-kerberos.ipynb`](big_data_service-(BDS)-kerberos.ipynb)
+
+ 
+Connect to Oracle Big Data services using Kerberos.
+
+This notebook was developed on the conda pack with slug: *pyspark30\_p37\_cpu\_v5*
+
+ 
+`kerberos`  `big data service`  `bds`
 
 <sub>Universal Permissive License v 1.0</sup>
 
@@ -69,6 +209,34 @@ This notebook was developed on the conda pack with slug: *nlp\_p37\_cpu\_v2*
 <sub>Universal Permissive License v 1.0</sup>
 
 ---
+### - Train, Register, and Deploy a LightGBM Model
+#### [`train-register-deploy-lightgbm.ipynb`](train-register-deploy-lightgbm.ipynb)
+
+ 
+Train, register, and deploy a LightGBM model.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`lightgbm`  `deploy model`  `register model`  `train model`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Loading Data with DatasetFactory
+#### [`load_data-object_storage-hive-autonomous-database.ipynb`](load_data-object_storage-hive-autonomous-database.ipynb)
+
+ 
+Load data from a variety of sources and in different formats. Sources include local storage, OCI storage, and different databases. Formats include Pandas DataFrames, parquet, excel, csv, and Python primitives.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`loading data`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
 ### - Model Evaluation with ADSEvaluator
 #### [`model_evaluation-with-ADSEvaluator.ipynb`](model_evaluation-with-ADSEvaluator.ipynb)
 
@@ -81,6 +249,34 @@ This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v
 `model evaluation`  `binary classification`  `regression`  `multi-class classification`  `imbalanced dataset`  `synthetic dataset`
 
 <sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Text Classification and Model Explanations using LIME
+#### [`text_classification-model_explanation-lime.ipynb`](text_classification-model_explanation-lime.ipynb)
+
+ 
+Perform model explanations on an NLP classifier using the locally interpretable model explanations technique (LIME).
+
+This notebook was developed on the conda pack with slug: *nlp\_p37\_cpu\_v2*
+
+ 
+`nlp`  `lime`  `model_explanation`  `text_classification`  `text_explanation`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Visual Genome Repository
+#### [`genome_visualization-oracle_open_data.ipynb`](genome_visualization-oracle_open_data.ipynb)
+
+ 
+Load visual data, define regions, and visualize objects using metadata to connect structured images to language.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`object annotation`  `genome visualization`  `oracle open data`
+
+<sub>Universal Permissive License v 1.0 (https://oss.oracle.com/licenses/upl/)</sup>
 
 ---
 ### - Working with Pipelines [Limited Availability]
@@ -97,6 +293,90 @@ This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v
 <sub>Universal Permissive License v 1.0</sup>
 
 ---
+### - PySpark
+#### [`pyspark-data_flow-application.ipynb`](pyspark-data_flow-application.ipynb)
+
+ 
+Develop local PySpark applications and work with remote clusters using Data Flow.
+
+This notebook was developed on the conda pack with slug: *pyspark24\_p37\_cpu\_v3*
+
+ 
+`pyspark`  `data flow`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Spark NLP within Oracle Cloud Infrastructure Data Flow Studio
+#### [`pyspark-data_flow_studio-spark_nlp.ipynb`](pyspark-data_flow_studio-spark_nlp.ipynb)
+
+ 
+Demonstrates how to use Spark NLP within a long lasting Oracle Cloud Infrastructure Data Flow cluster.
+
+This notebook was developed on the conda pack with slug: *pyspark32\_p38\_cpu\_v1*
+
+ 
+`pyspark`  `data flow`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Introduction to the Oracle Cloud Infrastructure Data Flow Studio
+#### [`pyspark-data_flow_studio-introduction.ipynb`](pyspark-data_flow_studio-introduction.ipynb)
+
+ 
+Run interactive Spark workloads on a long lasting Oracle Cloud Infrastructure Data Flow Spark cluster through Apache Livy integration. Data Flow Spark Magic is used for interactively working with remote Spark clusters through Livy, a Spark REST server, in Jupyter notebooks. It includes a set of magic commands for interactively running Spark code.
+
+This notebook was developed on the conda pack with slug: *pyspark32\_p38\_cpu\_v1*
+
+ 
+`pyspark`  `data flow`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Train, Register, and Deploy a PyTorch Model
+#### [`train-register-deploy-pytorch.ipynb`](train-register-deploy-pytorch.ipynb)
+
+ 
+Train, register, and deploy a PyTorch model.
+
+This notebook was developed on the conda pack with slug: *pytorch110\_p37\_cpu\_v1*
+
+ 
+`pytorch`  `deploy model`  `register model`  `train model`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Train, register, and deploy Sklearn Model
+#### [`train-register-deploy-sklearn.ipynb`](train-register-deploy-sklearn.ipynb)
+
+ 
+Train, register, and deploy an scikit-learn model.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`scikit-learn`  `deploy model`  `register model`  `train model`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Introduction to SQL Magic
+#### [`sql_magic-commands-with-autonomous_database.ipynb`](sql_magic-commands-with-autonomous_database.ipynb)
+
+ 
+Use SQL Magic commands to work with a database within a Jupytyer notebook. This notebook shows how to to use both line and cell magics.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`sql magic`  `autonomous database`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
 ### - Introduction to Streaming
 #### [`streaming-service-introduction.ipynb`](streaming-service-introduction.ipynb)
 
@@ -107,6 +387,62 @@ This notebook was developed on the conda pack with slug: *dataexpl\_p37\_cpu\_v3
 
  
 `streaming`  `kafka`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Train, Register, and Deploy a TensorFlow Model
+#### [`train-register-deploy-tensorflow.ipynb`](train-register-deploy-tensorflow.ipynb)
+
+ 
+Train, register, and deploy a TensorFlow model.
+
+This notebook was developed on the conda pack with slug: *tensorflow27\_p37\_cpu\_v1*
+
+ 
+`tensorflow`  `deploy model`  `register model`  `train model`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Text Extraction Using the Accelerated Data Science (ADS) SDK
+#### [`document-text_extraction.ipynb`](document-text_extraction.ipynb)
+
+ 
+Extract text from common formats (e.g. PDF and Word) into plain text. Customize this process for individual use cases.
+
+This notebook was developed on the conda pack with slug: *nlp\_p37\_cpu\_v2*
+
+ 
+`text extraction`  `nlp`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - XGBoost with RAPIDS
+#### [`xgboost-with-rapids.ipynb`](xgboost-with-rapids.ipynb)
+
+ 
+Compare training time between CPU and GPU trained models using XGBoost.
+
+This notebook was developed on the conda pack with slug: *rapids2110\_p37\_gpu\_v1*
+
+ 
+`xgboost`  `rapids`  `gpu`  `machine learning`  `classification`
+
+<sub>Universal Permissive License v 1.0</sup>
+
+---
+### - Train, Register, and Deploy an XGBoost Model
+#### [`train-register-deploy-xgboost.ipynb`](train-register-deploy-xgboost.ipynb)
+
+ 
+Train, register, and deploy an XGBoost model.
+
+This notebook was developed on the conda pack with slug: *generalml\_p37\_cpu\_v1*
+
+ 
+`xgboost`  `deploy model`  `register model`  `train model`
 
 <sub>Universal Permissive License v 1.0</sup>
 
