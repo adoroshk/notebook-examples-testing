@@ -9,7 +9,6 @@ runs:
         python-version: "3.8"
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install glob2
         pip install tqdm
         pip install nbformat
@@ -22,7 +21,7 @@ runs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        message: Commit README and INDEX
+        message: Commit README.md and index.json
         committer_name: GitHub Actions
         committer_email: actions@github.com
         file_pattern: README.md index.json
