@@ -1,4 +1,4 @@
-name: "Make README and INDEX"
+name: "Make README.md and index.jsom"
 description: 'Makes README.md and index.json on push or pull request events for the "main" branch or when manually triggered'
 runs:
   using: "composite"
@@ -23,5 +23,4 @@ runs:
       with:
         message: Commit README.md and index.json
         committer_name: GitHub Actions
-        committer_email: actions@github.com
-        file_pattern: README.md index.json
+
