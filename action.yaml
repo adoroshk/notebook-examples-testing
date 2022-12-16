@@ -25,7 +25,5 @@ runs:
         default_author: github_actions
         committer_name: GitHub Actions
         committer_email: actions@github.com
-        add: |
-          'README.md'
-          'index.json'
+        add: 'README.md' 'index.json'
 
