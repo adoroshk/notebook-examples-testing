@@ -12,7 +12,6 @@ runs:
         pip install glob2
         pip install tqdm
         pip install nbformat
-        pip install DateTime
       shell: bash
     - name: Make README.md and index.json files
       working-directory: ./notebook_examples
