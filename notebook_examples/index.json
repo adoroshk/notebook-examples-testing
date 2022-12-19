@@ -7,9 +7,6 @@
             "genome visualization",
             "oracle open data"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0 (https://oss.oracle.com/licenses/upl/)",
         "summary": "Load visual data, define regions, and visualize objects using metadata to connect structured images to language.",
         "title": "Visual Genome Repository"
@@ -29,9 +26,6 @@
             "sentiment analysis",
             "custom plugins"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Use the ADS SDK to process and manipulate strings. This notebook includes regular expression matching and natural language (NLP) parsing, including part-of-speech tagging, named entity recognition, and sentiment analysis. It also shows how to create and use custom plugins specific to your specific needs.",
         "title": "Natural Language Processing"
@@ -46,9 +40,6 @@
             "machine learning",
             "classification"
         ],
-        "last_modified": "2022-12-19T18:04:40.791229",
-        "last_modified_stat": 1671473080.7912295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.791229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Compare training time between CPU and GPU trained models using XGBoost.",
         "title": "XGBoost with RAPIDS"
@@ -61,9 +52,6 @@
             "seaborn plot",
             "charts"
         ],
-        "last_modified": "2022-12-19T18:04:40.791229",
-        "last_modified_stat": 1671473080.7912295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.791229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Perform common data visualization tasks and explore data with the ADS SDK. Plotting approaches include 3D plots, pie chart, GIS plots, and Seaborn pairplot graphs.",
         "title": "Visualizing Data"
@@ -75,9 +63,6 @@
             "sql magic",
             "autonomous database"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Use SQL Magic commands to work with a database within a Jupytyer notebook. This notebook shows how to to use both line and cell magics.",
         "title": "Introduction to SQL Magic"
@@ -89,9 +74,6 @@
             "bds",
             "fsspec"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Manage data using fsspec file system. Read and save data using pandas and pyarrow through fsspec file system.",
         "title": "How to Read Data with fsspec from Oracle Big Data Service (BDS)"
@@ -105,9 +87,6 @@
             "register model",
             "train model"
         ],
-        "last_modified": "2022-12-19T18:04:40.791229",
-        "last_modified_stat": 1671473080.7912295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.791229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train, register, and deploy an scikit-learn model.",
         "title": "Train, register, and deploy Sklearn Model"
@@ -119,9 +98,6 @@
             "pyspark",
             "data flow"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Develop local PySpark applications and work with remote clusters using Data Flow.",
         "title": "PySpark"
@@ -135,9 +111,6 @@
             "register model",
             "train model"
         ],
-        "last_modified": "2022-12-19T18:04:40.791229",
-        "last_modified_stat": 1671473080.7912295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.791229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train, register, and deploy an XGBoost model.",
         "title": "Train, Register, and Deploy an XGBoost Model"
@@ -149,9 +122,6 @@
             "data catalog metastore",
             "data flow"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Write and test a Data Flow batch application using the Oracle Cloud Infrastructure (OCI) Data Catalog Metastore. Configure the job, run the application and clean up resources.",
         "title": "Using Data Catalog Metastore with DataFlow"
@@ -163,9 +133,6 @@
             "streaming",
             "kafka"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Connect to Oracle Cloud Insfrastructure (OCI) Streaming service with kafka.",
         "title": "Introduction to Streaming"
@@ -179,9 +146,6 @@
             "register model",
             "train model"
         ],
-        "last_modified": "2022-12-19T18:04:40.791229",
-        "last_modified_stat": 1671473080.7912295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.791229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train, register, and deploy a TensorFlow model.",
         "title": "Train, Register, and Deploy a TensorFlow Model"
@@ -193,9 +157,6 @@
             "data labeling",
             "text classification"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Use the Oracle Cloud Infrastructure (OCI) Data Labeling service to efficiently build enriched, labeled datasets for the purpose of accurately training AI/ML models. This notebook demonstrates operations that can be performed using the Advanced Data Science (ADS) Data Labeling module.",
         "title": "Text Classification with Data Labeling Service Integration"
@@ -208,9 +169,6 @@
             "big data service",
             "livy"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Work interactively with a BDS cluster using Livy and two different connection techniques, SparkMagic (for a notebook environment) and with REST.",
         "title": "Using Livy on the Big Data Service"
@@ -226,9 +184,6 @@
             "imbalanced dataset",
             "synthetic dataset"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train and evaluate different types of models: binary classification using an imbalanced dataset, multi-class classification using a synthetically generated dataset consisting of three equally distributed classes, and a regression using a synthetically generated dataset with positive targets.",
         "title": "Model Evaluation with ADSEvaluator"
@@ -242,9 +197,6 @@
             "iam",
             "access management"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Configure and test API key authentication, attach keys to user account through Oracle's identity service, and test access to the API.",
         "title": "API Keys"
@@ -256,9 +208,6 @@
             "pyspark",
             "data flow"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Demonstrates how to use Spark NLP within a long lasting Oracle Cloud Infrastructure Data Flow cluster.",
         "title": "Spark NLP within Oracle Cloud Infrastructure Data Flow Studio"
@@ -272,9 +221,6 @@
             "register model",
             "train model"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train, register, and deploy a LightGBM model.",
         "title": "Train, Register, and Deploy a LightGBM Model"
@@ -287,9 +233,6 @@
             "pedestrian detection",
             "oracle open data"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Download and process annotated video data of vehicles and pedestrians.",
         "title": "Caltech Pedestrian Detection Benchmark Repository"
@@ -302,9 +245,6 @@
             "data catalog metastore",
             "pyspark"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Configure and use PySpark to process data in the Oracle Cloud Infrastructure (OCI) Data Catalog metastore, including common operations like creating and loading data from the metastore.",
         "title": "Using Data Catalog Metastore with PySpark"
@@ -318,9 +258,6 @@
             "register model",
             "train model"
         ],
-        "last_modified": "2022-12-19T18:04:40.791229",
-        "last_modified_stat": 1671473080.7912295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.791229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train, register, and deploy a PyTorch model.",
         "title": "Train, Register, and Deploy a PyTorch Model"
@@ -335,9 +272,6 @@
             "text_classification",
             "text_explanation"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Perform model explanations on an NLP classifier using the locally interpretable model explanations technique (LIME).",
         "title": "Text Classification and Model Explanations using LIME"
@@ -349,9 +283,6 @@
             "pyspark",
             "data flow"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Run interactive Spark workloads on a long lasting Oracle Cloud Infrastructure Data Flow Spark cluster through Apache Livy integration. Data Flow Spark Magic is used for interactively working with remote Spark clusters through Livy, a Spark REST server, in Jupyter notebooks. It includes a set of magic commands for interactively running Spark code.",
         "title": "Introduction to the Oracle Cloud Infrastructure Data Flow Studio"
@@ -362,9 +293,6 @@
         "keywords": [
             "loading data"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Load data from a variety of sources and in different formats. Sources include local storage, OCI storage, and different databases. Formats include Pandas DataFrames, parquet, excel, csv, and Python primitives.",
         "title": "Loading Data with DatasetFactory"
@@ -378,9 +306,6 @@
             "scikit-learn",
             "scikit learn"
         ],
-        "last_modified": "2022-12-19T18:04:40.775229",
-        "last_modified_stat": 1671473080.7752295,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.775229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Enhance performance of scikit-learn models using the Intel(R) oneAPI Data Analytics Library. Train a k-means model using both sklearn and the accelerated Intel library and compare performance.",
         "title": "Intel Extension for Scikit-Learn"
@@ -393,9 +318,6 @@
             "pipeline step",
             "jobs pipeline"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Create and use ML pipelines through the entire machine learning lifecycle",
         "title": "Working with Pipelines [Limited Availability]"
@@ -407,9 +329,6 @@
             "text extraction",
             "nlp"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Extract text from common formats (e.g. PDF and Word) into plain text. Customize this process for individual use cases.",
         "title": "Text Extraction Using the Accelerated Data Science (ADS) SDK"
@@ -421,9 +340,6 @@
             "autonomous driving",
             "oracle open data"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Download, process and display autonomous driving data, and map LiDAR data onto images.",
         "title": "Audi Autonomous Driving Dataset Repository"
@@ -434,9 +350,6 @@
         "keywords": [
             "hyperparameter tuning"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Use ADSTuner to optimize an estimator using the scikit-learn API",
         "title": "Introduction to ADSTuner"
@@ -450,9 +363,6 @@
             "register model",
             "train model"
         ],
-        "last_modified": "2022-12-19T18:04:40.783229",
-        "last_modified_stat": 1671473080.7832294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.783229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Train, register, and deploy a generic model",
         "title": "Train, Register, and Deploy a Generic Model"
@@ -465,9 +375,6 @@
             "big data service",
             "bds"
         ],
-        "last_modified": "2022-12-19T18:04:40.779229",
-        "last_modified_stat": 1671473080.7792294,
-        "last_modified_stat_iso": "2022-12-19T18:04:40.779229",
         "license": "Universal Permissive License v 1.0",
         "summary": "Connect to Oracle Big Data services using Kerberos.",
         "title": "Connect to Oracle Big Data Service"
