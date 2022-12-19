@@ -1,11 +1,17 @@
 name: Make README.md and index.json
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Triggers the workflow on push or pull request events
   push:
+    branches:    
+        - '**'        # matches every branch
+        #- '!master'   # excludes master
     paths:
       - "**.ipynb"
       - "make_readme.py"
   pull_request:
+    branches:    
+          - '**'        # matches every branch
+          #- '!master'   # excludes master
     paths:
       - "**.ipynb"
       - "make_readme.py"
