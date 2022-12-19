@@ -94,7 +94,7 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
                     index_json_entry: dict = {}
                     for key in parsed_bib:
                         index_json_entry[key.replace(' ', '_')] = parsed_bib[key]
-                    create_time_float = os.path.getctime(parsed_bib['filename'])
+                    create_time_float = os.path.getmtime(parsed_bib['filename'])
                     index_json_entry['create_time'] = (datetime.datetime.utcfromtimestamp(create_time_float)).isoformat()
                     index_json_content.append(index_json_entry)
 
