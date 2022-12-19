@@ -1,90 +1,19 @@
 [
     {
-        "create_time": "2022-12-19T17:26:26.185061",
-        "developed_on": "rapids2110_p37_gpu_v1",
-        "filename": "xgboost-with-rapids.ipynb",
-        "keywords": [
-            "xgboost",
-            "rapids",
-            "gpu",
-            "machine learning",
-            "classification"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Compare training time between CPU and GPU trained models using XGBoost.",
-        "title": "XGBoost with RAPIDS"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.185061",
+        "create_time": "2022-12-19T17:29:13.956772",
         "developed_on": "generalml_p37_cpu_v1",
-        "filename": "visualizing_data-exploring_data.ipynb",
+        "filename": "genome_visualization-oracle_open_data.ipynb",
         "keywords": [
-            "data visualization",
-            "seaborn plot",
-            "charts"
+            "object annotation",
+            "genome visualization",
+            "oracle open data"
         ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Perform common data visualization tasks and explore data with the ADS SDK. Plotting approaches include 3D plots, pie chart, GIS plots, and Seaborn pairplot graphs.",
-        "title": "Visualizing Data"
+        "license": "Universal Permissive License v 1.0 (https://oss.oracle.com/licenses/upl/)",
+        "summary": "Load visual data, define regions, and visualize objects using metadata to connect structured images to language.",
+        "title": "Visual Genome Repository"
     },
     {
-        "create_time": "2022-12-19T17:26:26.185061",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "train-register-deploy-sklearn.ipynb",
-        "keywords": [
-            "scikit-learn",
-            "deploy model",
-            "register model",
-            "train model"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Train, register, and deploy an scikit-learn model.",
-        "title": "Train, register, and deploy Sklearn Model"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.185061",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "train-register-deploy-xgboost.ipynb",
-        "keywords": [
-            "xgboost",
-            "deploy model",
-            "register model",
-            "train model"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Train, register, and deploy an XGBoost model.",
-        "title": "Train, Register, and Deploy an XGBoost Model"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.185061",
-        "developed_on": "tensorflow27_p37_cpu_v1",
-        "filename": "train-register-deploy-tensorflow.ipynb",
-        "keywords": [
-            "tensorflow",
-            "deploy model",
-            "register model",
-            "train model"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Train, register, and deploy a TensorFlow model.",
-        "title": "Train, Register, and Deploy a TensorFlow Model"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.185061",
-        "developed_on": "pytorch110_p37_cpu_v1",
-        "filename": "train-register-deploy-pytorch.ipynb",
-        "keywords": [
-            "pytorch",
-            "deploy model",
-            "register model",
-            "train model"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Train, register, and deploy a PyTorch model.",
-        "title": "Train, Register, and Deploy a PyTorch Model"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.177060",
+        "create_time": "2022-12-19T17:29:13.956772",
         "developed_on": "nlp_p37_cpu_v2",
         "filename": "natural_language_processing.ipynb",
         "keywords": [
@@ -104,7 +33,35 @@
         "title": "Natural Language Processing"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
+        "create_time": "2022-12-19T17:29:13.968772",
+        "developed_on": "rapids2110_p37_gpu_v1",
+        "filename": "xgboost-with-rapids.ipynb",
+        "keywords": [
+            "xgboost",
+            "rapids",
+            "gpu",
+            "machine learning",
+            "classification"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Compare training time between CPU and GPU trained models using XGBoost.",
+        "title": "XGBoost with RAPIDS"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.968772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "visualizing_data-exploring_data.ipynb",
+        "keywords": [
+            "data visualization",
+            "seaborn plot",
+            "charts"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Perform common data visualization tasks and explore data with the ADS SDK. Plotting approaches include 3D plots, pie chart, GIS plots, and Seaborn pairplot graphs.",
+        "title": "Visualizing Data"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.960772",
         "developed_on": "generalml_p37_cpu_v1",
         "filename": "sql_magic-commands-with-autonomous_database.ipynb",
         "keywords": [
@@ -116,7 +73,7 @@
         "title": "Introduction to SQL Magic"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
+        "create_time": "2022-12-19T17:29:13.960772",
         "developed_on": "pyspark30_p37_cpu_v5",
         "filename": "read-write-big_data_service-(BDS).ipynb",
         "keywords": [
@@ -128,7 +85,21 @@
         "title": "How to Read Data with fsspec from Oracle Big Data Service (BDS)"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
+        "create_time": "2022-12-19T17:29:13.968772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "train-register-deploy-sklearn.ipynb",
+        "keywords": [
+            "scikit-learn",
+            "deploy model",
+            "register model",
+            "train model"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Train, register, and deploy an scikit-learn model.",
+        "title": "Train, register, and deploy Sklearn Model"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.956772",
         "developed_on": "pyspark24_p37_cpu_v3",
         "filename": "pyspark-data_flow-application.ipynb",
         "keywords": [
@@ -140,7 +111,21 @@
         "title": "PySpark"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
+        "create_time": "2022-12-19T17:29:13.968772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "train-register-deploy-xgboost.ipynb",
+        "keywords": [
+            "xgboost",
+            "deploy model",
+            "register model",
+            "train model"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Train, register, and deploy an XGBoost model.",
+        "title": "Train, Register, and Deploy an XGBoost Model"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.956772",
         "developed_on": "pyspark30_p37_cpu_v5",
         "filename": "pyspark-data_catalog-hive_metastore-data_flow.ipynb",
         "keywords": [
@@ -152,7 +137,7 @@
         "title": "Using Data Catalog Metastore with DataFlow"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
+        "create_time": "2022-12-19T17:29:13.960772",
         "developed_on": "dataexpl_p37_cpu_v3",
         "filename": "streaming-service-introduction.ipynb",
         "keywords": [
@@ -164,113 +149,21 @@
         "title": "Introduction to Streaming"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "pyspark32_p38_cpu_v1",
-        "filename": "pyspark-data_flow_studio-spark_nlp.ipynb",
+        "create_time": "2022-12-19T17:29:13.968772",
+        "developed_on": "tensorflow27_p37_cpu_v1",
+        "filename": "train-register-deploy-tensorflow.ipynb",
         "keywords": [
-            "pyspark",
-            "data flow"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Demonstrates how to use Spark NLP within a long lasting Oracle Cloud Infrastructure Data Flow cluster.",
-        "title": "Spark NLP within Oracle Cloud Infrastructure Data Flow Studio"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "train-register-deploy-lightgbm.ipynb",
-        "keywords": [
-            "lightgbm",
+            "tensorflow",
             "deploy model",
             "register model",
             "train model"
         ],
         "license": "Universal Permissive License v 1.0",
-        "summary": "Train, register, and deploy a LightGBM model.",
-        "title": "Train, Register, and Deploy a LightGBM Model"
+        "summary": "Train, register, and deploy a TensorFlow model.",
+        "title": "Train, Register, and Deploy a TensorFlow Model"
     },
     {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "pyspark30_p37_cpu_v5",
-        "filename": "pyspark-data_catalog-hive_metastore.ipynb",
-        "keywords": [
-            "dcat",
-            "data catalog metastore",
-            "pyspark"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Configure and use PySpark to process data in the Oracle Cloud Infrastructure (OCI) Data Catalog metastore, including common operations like creating and loading data from the metastore.",
-        "title": "Using Data Catalog Metastore with PySpark"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "nlp_p37_cpu_v2",
-        "filename": "text_classification-model_explanation-lime.ipynb",
-        "keywords": [
-            "nlp",
-            "lime",
-            "model_explanation",
-            "text_classification",
-            "text_explanation"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Perform model explanations on an NLP classifier using the locally interpretable model explanations technique (LIME).",
-        "title": "Text Classification and Model Explanations using LIME"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "pyspark32_p38_cpu_v1",
-        "filename": "pyspark-data_flow_studio-introduction.ipynb",
-        "keywords": [
-            "pyspark",
-            "data flow"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Run interactive Spark workloads on a long lasting Oracle Cloud Infrastructure Data Flow Spark cluster through Apache Livy integration. Data Flow Spark Magic is used for interactively working with remote Spark clusters through Livy, a Spark REST server, in Jupyter notebooks. It includes a set of magic commands for interactively running Spark code.",
-        "title": "Introduction to the Oracle Cloud Infrastructure Data Flow Studio"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "pipelines-ml_lifecycle.ipynb",
-        "keywords": [
-            "pipelines",
-            "pipeline step",
-            "jobs pipeline"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Create and use ML pipelines through the entire machine learning lifecycle",
-        "title": "Working with Pipelines [Limited Availability]"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.177060",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "train-register-deploy-other-frameworks.ipynb",
-        "keywords": [
-            "generic model",
-            "deploy model",
-            "register model",
-            "train model"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Train, register, and deploy a generic model",
-        "title": "Train, Register, and Deploy a Generic Model"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.173060",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "genome_visualization-oracle_open_data.ipynb",
-        "keywords": [
-            "object annotation",
-            "genome visualization",
-            "oracle open data"
-        ],
-        "license": "Universal Permissive License v 1.0 (https://oss.oracle.com/licenses/upl/)",
-        "summary": "Load visual data, define regions, and visualize objects using metadata to connect structured images to language.",
-        "title": "Visual Genome Repository"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.173060",
+        "create_time": "2022-12-19T17:29:13.952772",
         "developed_on": "nlp_p37_cpu_v2",
         "filename": "data_labeling-text_classification.ipynb",
         "keywords": [
@@ -282,7 +175,7 @@
         "title": "Text Classification with Data Labeling Service Integration"
     },
     {
-        "create_time": "2022-12-19T17:26:26.173060",
+        "create_time": "2022-12-19T17:29:13.952772",
         "developed_on": "pyspark30_p37_cpu_v5",
         "filename": "big_data_service-(BDS)-livy.ipynb",
         "keywords": [
@@ -295,7 +188,7 @@
         "title": "Using Livy on the Big Data Service"
     },
     {
-        "create_time": "2022-12-19T17:26:26.173060",
+        "create_time": "2022-12-19T17:29:13.956772",
         "developed_on": "generalml_p37_cpu_v1",
         "filename": "model_evaluation-with-ADSEvaluator.ipynb",
         "keywords": [
@@ -311,7 +204,7 @@
         "title": "Model Evaluation with ADSEvaluator"
     },
     {
-        "create_time": "2022-12-19T17:26:26.173060",
+        "create_time": "2022-12-19T17:29:13.952772",
         "developed_on": "generalml_p37_cpu_v1",
         "filename": "api_keys-authentication.ipynb",
         "keywords": [
@@ -325,7 +218,33 @@
         "title": "API Keys"
     },
     {
-        "create_time": "2022-12-19T17:26:26.173060",
+        "create_time": "2022-12-19T17:29:13.960772",
+        "developed_on": "pyspark32_p38_cpu_v1",
+        "filename": "pyspark-data_flow_studio-spark_nlp.ipynb",
+        "keywords": [
+            "pyspark",
+            "data flow"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Demonstrates how to use Spark NLP within a long lasting Oracle Cloud Infrastructure Data Flow cluster.",
+        "title": "Spark NLP within Oracle Cloud Infrastructure Data Flow Studio"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.960772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "train-register-deploy-lightgbm.ipynb",
+        "keywords": [
+            "lightgbm",
+            "deploy model",
+            "register model",
+            "train model"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Train, register, and deploy a LightGBM model.",
+        "title": "Train, Register, and Deploy a LightGBM Model"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.952772",
         "developed_on": "generalml_p37_cpu_v1",
         "filename": "caltech-pedestrian_detection-oracle_open_data.ipynb",
         "keywords": [
@@ -338,7 +257,61 @@
         "title": "Caltech Pedestrian Detection Benchmark Repository"
     },
     {
-        "create_time": "2022-12-19T17:26:26.173060",
+        "create_time": "2022-12-19T17:29:13.956772",
+        "developed_on": "pyspark30_p37_cpu_v5",
+        "filename": "pyspark-data_catalog-hive_metastore.ipynb",
+        "keywords": [
+            "dcat",
+            "data catalog metastore",
+            "pyspark"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Configure and use PySpark to process data in the Oracle Cloud Infrastructure (OCI) Data Catalog metastore, including common operations like creating and loading data from the metastore.",
+        "title": "Using Data Catalog Metastore with PySpark"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.968772",
+        "developed_on": "pytorch110_p37_cpu_v1",
+        "filename": "train-register-deploy-pytorch.ipynb",
+        "keywords": [
+            "pytorch",
+            "deploy model",
+            "register model",
+            "train model"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Train, register, and deploy a PyTorch model.",
+        "title": "Train, Register, and Deploy a PyTorch Model"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.960772",
+        "developed_on": "nlp_p37_cpu_v2",
+        "filename": "text_classification-model_explanation-lime.ipynb",
+        "keywords": [
+            "nlp",
+            "lime",
+            "model_explanation",
+            "text_classification",
+            "text_explanation"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Perform model explanations on an NLP classifier using the locally interpretable model explanations technique (LIME).",
+        "title": "Text Classification and Model Explanations using LIME"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.960772",
+        "developed_on": "pyspark32_p38_cpu_v1",
+        "filename": "pyspark-data_flow_studio-introduction.ipynb",
+        "keywords": [
+            "pyspark",
+            "data flow"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Run interactive Spark workloads on a long lasting Oracle Cloud Infrastructure Data Flow Spark cluster through Apache Livy integration. Data Flow Spark Magic is used for interactively working with remote Spark clusters through Livy, a Spark REST server, in Jupyter notebooks. It includes a set of magic commands for interactively running Spark code.",
+        "title": "Introduction to the Oracle Cloud Infrastructure Data Flow Studio"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.956772",
         "developed_on": "generalml_p37_cpu_v1",
         "filename": "load_data-object_storage-hive-autonomous-database.ipynb",
         "keywords": [
@@ -349,55 +322,7 @@
         "title": "Loading Data with DatasetFactory"
     },
     {
-        "create_time": "2022-12-19T17:26:26.173060",
-        "developed_on": "nlp_p37_cpu_v2",
-        "filename": "document-text_extraction.ipynb",
-        "keywords": [
-            "text extraction",
-            "nlp"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Extract text from common formats (e.g. PDF and Word) into plain text. Customize this process for individual use cases.",
-        "title": "Text Extraction Using the Accelerated Data Science (ADS) SDK"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.173060",
-        "developed_on": "computervision_p37_cpu_v1",
-        "filename": "audi-autonomous_driving-oracle_open_data.ipynb",
-        "keywords": [
-            "autonomous driving",
-            "oracle open data"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Download, process and display autonomous driving data, and map LiDAR data onto images.",
-        "title": "Audi Autonomous Driving Dataset Repository"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.173060",
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "hyperparameter_tuning.ipynb",
-        "keywords": [
-            "hyperparameter tuning"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Use ADSTuner to optimize an estimator using the scikit-learn API",
-        "title": "Introduction to ADSTuner"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.173060",
-        "developed_on": "pyspark30_p37_cpu_v5",
-        "filename": "big_data_service-(BDS)-kerberos.ipynb",
-        "keywords": [
-            "kerberos",
-            "big data service",
-            "bds"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Connect to Oracle Big Data services using Kerberos.",
-        "title": "Connect to Oracle Big Data Service"
-    },
-    {
-        "create_time": "2022-12-19T17:26:26.169060",
+        "create_time": "2022-12-19T17:29:13.948772",
         "developed_on": "sklearnex202130_p37_cpu_v1",
         "filename": "accelerate-scikit_learn-with-intel_extension.ipynb",
         "keywords": [
@@ -409,5 +334,80 @@
         "license": "Universal Permissive License v 1.0",
         "summary": "Enhance performance of scikit-learn models using the Intel(R) oneAPI Data Analytics Library. Train a k-means model using both sklearn and the accelerated Intel library and compare performance.",
         "title": "Intel Extension for Scikit-Learn"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.956772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "pipelines-ml_lifecycle.ipynb",
+        "keywords": [
+            "pipelines",
+            "pipeline step",
+            "jobs pipeline"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Create and use ML pipelines through the entire machine learning lifecycle",
+        "title": "Working with Pipelines [Limited Availability]"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.956772",
+        "developed_on": "nlp_p37_cpu_v2",
+        "filename": "document-text_extraction.ipynb",
+        "keywords": [
+            "text extraction",
+            "nlp"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Extract text from common formats (e.g. PDF and Word) into plain text. Customize this process for individual use cases.",
+        "title": "Text Extraction Using the Accelerated Data Science (ADS) SDK"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.952772",
+        "developed_on": "computervision_p37_cpu_v1",
+        "filename": "audi-autonomous_driving-oracle_open_data.ipynb",
+        "keywords": [
+            "autonomous driving",
+            "oracle open data"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Download, process and display autonomous driving data, and map LiDAR data onto images.",
+        "title": "Audi Autonomous Driving Dataset Repository"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.956772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "hyperparameter_tuning.ipynb",
+        "keywords": [
+            "hyperparameter tuning"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Use ADSTuner to optimize an estimator using the scikit-learn API",
+        "title": "Introduction to ADSTuner"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.960772",
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "train-register-deploy-other-frameworks.ipynb",
+        "keywords": [
+            "generic model",
+            "deploy model",
+            "register model",
+            "train model"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Train, register, and deploy a generic model",
+        "title": "Train, Register, and Deploy a Generic Model"
+    },
+    {
+        "create_time": "2022-12-19T17:29:13.952772",
+        "developed_on": "pyspark30_p37_cpu_v5",
+        "filename": "big_data_service-(BDS)-kerberos.ipynb",
+        "keywords": [
+            "kerberos",
+            "big data service",
+            "bds"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Connect to Oracle Big Data services using Kerberos.",
+        "title": "Connect to Oracle Big Data Service"
     }
 ]
