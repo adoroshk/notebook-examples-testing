@@ -3,14 +3,14 @@ on:
   # Triggers the workflow on push or pull request events
   push:
     branches: ["main"]
-    paths:
-      - "**.ipynb"
-      - "make_readme.py"
+    paths: |
+      "**.ipynb"
+      "make_readme.py"
   pull_request:
     branches: ["main"]
-    paths:
-      - "**.ipynb"
-      - "make_readme.py"
+    paths: |
+      "**.ipynb"
+      "make_readme.py"
   # Allows mannual triggering
   workflow_dispatch:
 jobs:
