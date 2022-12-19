@@ -90,7 +90,7 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
                     bib = cell["source"]
                     parsed_bib = parse_adsbib_format(bib)
 
-                    # add a record for the future index.json file
+                    # add a record for the future index.json
                     index_json_entry: dict = {}
                     for key in parsed_bib:
                         index_json_entry[key.replace(' ', '_')] = parsed_bib[key]
