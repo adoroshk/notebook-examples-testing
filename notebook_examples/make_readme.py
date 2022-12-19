@@ -142,7 +142,7 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
         print(f"{len(index_json_content)} notebooks proceesed into {INDEX_FILE}")
 
     # sort by create_time and write to index.json, newest first
-    index_json_content.sort(key=lambda nb: nb['create_time'], reverse=True)
+    # index_json_content.sort(key=lambda nb: nb['create_time'], reverse=True)
     with open(INDEX_FILE, "w") as index_file:
         json.dump(index_json_content, index_file, sort_keys=True, indent=4)
 
