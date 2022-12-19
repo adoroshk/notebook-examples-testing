@@ -94,9 +94,11 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
                     index_json_entry: dict = {}
                     for key in parsed_bib:
                         index_json_entry[key.replace(' ', '_')] = parsed_bib[key]
-                    # add last time modified time for notebooks  
+                    # add last time modified time for notebooks
+                    stat = os.stat(parsed_bib['filename']) 
                     create_time_float = os.path.getmtime(parsed_bib['filename'])
-                    index_json_entry['create_time'] = (datetime.datetime.utcfromtimestamp(create_time_float)).isoformat()
+                    index_json_entry['last_modified'] = (datetime.datetime.utcfromtimestamp(create_time_float)).isoformat()
+                    index_json_entry['last_modified_stat'] = stat.st_mtime
                     index_json_content.append(index_json_entry)
 
                     assert (
@@ -143,7 +145,7 @@ The ADS SDK can be downloaded from [PyPi](https://pypi.org/project/oracle-ads/),
 
     # sort by create_time and write to index.json, newest first
     # index_json_content.sort(key=lambda nb: nb['create_time'], reverse=True)
-    
+
     with open(INDEX_FILE, "w") as index_file:
         json.dump(index_json_content, index_file, sort_keys=True, indent=4)
 
