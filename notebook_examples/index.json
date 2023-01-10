@@ -162,6 +162,19 @@
         "title": "Text Classification with Data Labeling Service Integration"
     },
     {
+        "developed_on": "generalml_p37_cpu_v1",
+        "filename": "api_keys-authentication1.ipynb",
+        "keywords": [
+            "authentication",
+            "api keys",
+            "iam",
+            "access management"
+        ],
+        "license": "Universal Permissive License v 1.0",
+        "summary": "Configure and test API key authentication, attach keys to user account through Oracle's identity service, and test access to the API.",
+        "title": "API Keys"
+    },
+    {
         "developed_on": "pyspark30_p37_cpu_v5",
         "filename": "big_data_service-(BDS)-livy.ipynb",
         "keywords": [
@@ -187,19 +200,6 @@
         "license": "Universal Permissive License v 1.0",
         "summary": "Train and evaluate different types of models: binary classification using an imbalanced dataset, multi-class classification using a synthetically generated dataset consisting of three equally distributed classes, and a regression using a synthetically generated dataset with positive targets.",
         "title": "Model Evaluation with ADSEvaluator"
-    },
-    {
-        "developed_on": "generalml_p37_cpu_v1",
-        "filename": "api_keys-authentication.ipynb",
-        "keywords": [
-            "authentication",
-            "api keys",
-            "iam",
-            "access management"
-        ],
-        "license": "Universal Permissive License v 1.0",
-        "summary": "Configure and test API key authentication, attach keys to user account through Oracle's identity service, and test access to the API.",
-        "title": "API Keys"
     },
     {
         "developed_on": "pyspark32_p38_cpu_v1",
